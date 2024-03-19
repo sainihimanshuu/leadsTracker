@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+}
+
+#input-el{
+    width: 100%;
+    line-height: 25px;
+    padding: 2px 8px;
+    box-sizing: border-box;
+    border: 1px solid #5f9341;
+}
+
+#input-btn{
+     background-color: #5f9341;
+     color: white;
+     font-weight: bold;
+     border: 1.5px solid #5f9341;
+     margin-top: 4px;
+     padding: 8px 15px;
+}
+
+#delete-btn{
+    background-color: white;
+    color: #5f9341;
+    margin-top: 4px;
+    padding: 8px 15px;
+    border: 1.5px solid #5f9341;
+}
+
+#tab-btn{
+    background-color: #5f9341;
+    color: white;
+    font-weight: bold;
+    border: 1.5px solid #5f9341;
+    margin-top: 4px;
+    padding: 8px 15px;
+}
+
+ul{
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li{
+    margin-top: 5px;
+}
+
+li a/*only target anchor tags which lives inside list item*/{  
+    color: #5f9341;
+}
